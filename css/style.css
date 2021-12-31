@@ -1,0 +1,587 @@
+ 
+body{
+
+
+margin: 0;
+padding: 0;
+font-family: 'Playfair Display', serif; 
+
+font-size: 16px;
+font-weight: 400;
+color: #626262;
+
+
+}
+
+/* header start */
+header{
+
+	/*border: 1px solid #626262; */
+    padding: 20px 0;
+    border-bottom: 1px solid #d9d7d7;
+
+
+  }
+.container {
+
+	/*border:1px solid ;*/
+
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+
+
+}
+.logo {
+	/*border:1px solid ;*/
+
+	width: 12%;
+	margin-top: 10px;
+	float: left;
+	
+
+
+}
+
+
+.logo img{
+
+	width:100%;
+	
+
+
+
+}
+
+.menu {
+
+	/*border:1px solid  red;*/
+
+	width: 70%;
+	float: right;
+	
+
+}
+.menu ul{
+	float: right;
+
+
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+	
+
+
+}
+
+
+.menu ul li a{
+
+	border-bottom: 1px solid transparent;
+
+
+	padding: 2px 3px;
+
+	margin: 0 45px;
+	
+	font-size: 16px;
+	color: #0F2656;
+	text-decoration: none;
+	display:inline-block ;
+	transition: 0.15s;
+	text-transform: uppercase;
+}
+
+.menu ul li:last-child a{
+
+	margin-right: 0;
+}
+
+
+
+
+.menu ul li a:hover{
+border-bottom: 1px solid #626262;
+
+
+
+
+}
+ /*header end*/
+
+
+
+
+
+
+ /* banner start */
+
+
+ .banner{
+
+ 	padding: 50px 0;
+
+
+
+ }
+
+
+.b_content{
+
+
+	/*border:1px solid ;*/
+
+
+
+
+}
+
+.b_content img{
+	
+	width: 100%;
+
+
+
+}
+
+
+ /* banner end */
+
+
+/* perfect start */
+
+.perfect{
+
+
+padding: 65px 0;
+
+
+}
+.container2{
+	/*border:1px solid blue;*/
+
+
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+
+
+
+
+
+
+}
+
+.p_content{
+
+
+
+
+}
+
+.c_tag{
+	margin: 0;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+	text-transform: uppercase;
+
+
+
+
+
+}
+
+.c_title{
+	margin: 20px 0 25px;
+	font-size: 30px;
+	font-weight: 400;
+
+
+
+
+}
+
+
+.c_para{
+
+line-height: 25px;
+    margin-bottom: 55px;
+    text-align:justify;
+
+
+
+}
+
+
+.mb_40{
+
+
+
+	margin-bottom: 40px;
+}
+
+
+/* perfect end */
+
+
+
+/* blog start */
+
+.blog{
+
+
+		padding: 65px 0 20px;
+
+
+
+}
+
+.blog_content{
+
+	/*border: 1px solid red;*/
+	overflow: hidden;
+
+
+
+
+}
+
+
+.single{
+
+
+	/* border:1px solid aqua; */
+
+	width: 47%;
+
+	float: left;
+
+
+}
+
+
+.single:nth-child(even){
+
+	margin-left: 6%;
+
+
+
+
+
+
+}
+
+.s_img{
+
+	margin-bottom: 20px;
+
+
+
+}
+
+.s_img img{
+
+	width:100%;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* blog end */
+
+
+
+
+ /* newsletter start */
+
+
+.newsletter{
+
+	padding:50px 0;
+	background-color: #F0F0F0;
+
+
+
+}
+.container3{
+	/*border:1px solid cyan;*/
+
+	width: 60%;
+	margin: 0 auto;
+
+
+
+
+
+}
+
+
+.signup{
+
+	 text-align: center;
+
+
+
+
+}
+
+
+.signup h1{
+
+	font-size: 30px;
+	margin-bottom: 80px;
+
+
+
+}
+
+
+.for_form{
+
+	
+	width: 360px;
+	margin: 0 auto;
+	position: relative;
+	left: 0;
+	right: 0;
+	
+
+
+
+}
+
+.for_form input{ 
+
+	border: none;
+	background: transparent;
+    border-bottom: 1px solid black;
+    width: 280px;
+    font-size: 16px;
+    padding: 9px 35px 10px 15px;
+    outline: none;
+
+
+
+}
+
+.for_form button{
+
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 9px;
+	right: 11px;
+
+
+
+
+
+}
+.for_form button img{
+
+
+
+
+}
+
+
+ /* newsletter end */
+
+ /* blog2 start */
+
+
+.load{
+
+	text-align: center;
+
+
+	margin: 150px 0;
+
+
+
+
+}
+
+.load button{
+	width: 165px;
+	height: 60px;
+
+	background: transparent;
+	color: #626262;
+	border: 1px solid black;
+
+	font-size: 20px;
+	font-family: 'Playfair Display', serif; ;
+	font-weight: 400;
+	cursor: pointer;
+
+
+
+}
+
+
+.load button:hover{
+
+	background-color: #626262;
+	color: white;
+	transition: 0.3s;
+
+
+}
+
+/* blog2 end */
+
+
+/* footer start */
+
+footer{
+     padding: 20px 0;
+	background-color: #f0f0f0;
+}
+
+.terms{
+
+	/*border:1px solid orange ;*/
+
+	width: 25%;
+	float: left;
+	 margin: 0 5%;
+
+
+
+}
+
+
+.terms ul {
+
+	padding: 0;
+	overflow: hidden;
+
+
+
+
+}
+
+.terms ul li{
+
+
+	list-style: none;
+	
+		float: left;
+
+
+
+}
+
+
+
+.terms ul li a{
+
+
+	color: black;
+
+	margin: 0 20px;
+	display: inline-block;
+	text-decoration: none;
+
+
+
+
+
+}
+
+.terms ul li:first-child a{
+
+		margin-left: 0;
+
+
+}
+
+
+
+
+
+.follow{
+
+	/*border:1px solid green;*/
+
+
+
+	width: 20%;
+	float: right;
+
+
+
+}
+
+
+.follow ul{
+
+	
+
+	float: right;
+
+
+
+
+}
+
+
+.follow ul li{
+
+
+		list-style: none;
+
+		float: left;
+
+
+
+
+}
+
+
+.follow ul li span{
+
+	margin: 0 10px;
+
+}
+
+
+.follow ul li a{
+
+	margin: 0 10px;
+	display: inline-block;
+	text-decoration: none;
+
+
+
+}
+	
+.follow ul li:last-child a{
+
+
+margin-right: 0;
+
+
+}
+
+
+/* footer end */
+
+
+
+
+
+
